@@ -22,4 +22,4 @@ export const User = mongoose.model('User', {
     email: String
 })
 
-export const mongoose = mongoose
+export const base = mongoose;
